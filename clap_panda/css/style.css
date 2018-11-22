@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: #4A71FF;
+  min-height: 100vh;
+}
+.scene {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+.panda {
+  width: 300px;
+}
+.panda__wrap {
+  position: relative;
+}
+.panda__actions {
+  display: flex;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.panda__paw-control {
+  background: transparent;
+  cursor: pointer;
+  height: 100%;
+  flex: 1;
+}
+.panda__paw--hidden {
+  display: none;
+}
+.msg{
+  margin: 0;
+  padding: 0;
+  position: relative;
+  color: white;
+}
+.hide{
+  display: none;
+}
